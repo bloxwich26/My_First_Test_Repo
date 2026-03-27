@@ -1,0 +1,15 @@
+R1 = float(input('Введите R1: '))
+R2 = float(input('Введите R2: '))
+R3 = float(input('Введите R3: '))
+R4 = float(input('Введите R4: '))
+R5 = float(input('Введите R5: '))
+R6 = float(input('Введите R6: '))
+R7 = float(input('Введите R7: '))
+R8 = float(input('Введите R8: '))
+
+R12 = R1 + R2
+R34 = (R3 * R4) / (R3 + R4)
+R56 = (R5 * R6) / (R5 + R6)
+R78 = (R7 * R8) / (R7 + R8)
+R = R12 + 1/(R34 + R56 + R78)
+print(R) 
